@@ -102,7 +102,7 @@ st.markdown("""
   .pred-box .sub-text { color: #64748b; font-size: 0.9rem; }
 
   /* Tab styling */
-  .stTabs [data-baseweb="tab-list"] { gap: 4px; background: #f1f5f9; border-radius: 10px; padding: 4px; }
+  .stTabs [data-baseweb="tab-list"] { gap: 16px; background: #f1f5f9; border-radius: 10px; padding: 4px; }
   .stTabs [data-baseweb="tab"] { border-radius: 8px; font-weight: 500; color: #64748b; }
   .stTabs [aria-selected="true"] { background: white !important; color: #0f172a !important; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
 
@@ -308,7 +308,7 @@ sel = results[selected_model_name]
 # ── Header ───────────────────────────────────────────────────
 st.markdown("""
 <div style='padding: 32px 0 8px 0;'>
-  <h1 style='font-size:2rem; font-weight:700; color:#ffffff; margin:0; line-height:1.1;'>
+  <h1 style='font-size:2rem; font-weight:700; color:#0f172a; margin:0; line-height:1.1;'>
     Heart Disease Risk Predictor
   </h1>
   <p style='color:#64748b; margin-top:8px; font-size:0.95rem;'>
@@ -339,7 +339,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # ── Tabs ─────────────────────────────────────────────────────
 tab2, tab4, tab3, tab1 = st.tabs([
-    "📊  Explore Data",     "📈  Feature Importance",        "🤖  Model Comparison",          "🔍  Predict"
+    "📊  Explore Data", "📈  Feature Importance", "🤖  Model Comparison", "🔍  Predict"
 ])
 
 # ═══════════════════════════════════════════════════════════
