@@ -308,7 +308,7 @@ sel = results[selected_model_name]
 # ── Header ───────────────────────────────────────────────────
 st.markdown("""
 <div style='padding: 32px 0 8px 0;'>
-  <h1 style='font-size:2rem; font-weight:700; color:#0f172a; margin:0; line-height:1.1;'>
+  <h1 style='font-size:2rem; font-weight:700; color:#ffffff; margin:0; line-height:1.1;'>
     Heart Disease Risk Predictor
   </h1>
   <p style='color:#64748b; margin-top:8px; font-size:0.95rem;'>
