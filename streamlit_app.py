@@ -339,7 +339,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # ── Tabs ─────────────────────────────────────────────────────
 tab2, tab4, tab3, tab1 = st.tabs([
-    "📊  Explore Data", "📈  Feature Importance", "🤖  Model Comparison", "🔍  Predict"
+    "📊  Explore Data",     "📈  Feature Importance",        "🤖  Model Comparison",          "🔍  Predict"
 ])
 
 # ═══════════════════════════════════════════════════════════
